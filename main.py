@@ -6,7 +6,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import threading
 
 # លេខកូដសម្ងាត់ Bot របស់អ្នក
-TOKEN = "8817414744:AAFoYG9yeJlCunWICwexEl8fnZ4MPdxLozA"
+TOKEN = "TOKEN = "8817414744:AAFoYG9yeJlCunWICwexEl8fnZ4M..."
+"
 
 async def start(update: Update, context):
     await update.message.reply_text("សួស្តី! ខ្ញុំជា Bot ដែលរត់នៅលើ Render ២៤ ម៉ោង។ ខ្ញុំត្រៀមខ្លួនរួចរាល់ហើយ!")
